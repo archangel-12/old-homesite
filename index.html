@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html class="scroll-smooth">
 <html lang="en">
 
 <head>
@@ -18,23 +18,23 @@
     <title>Schrijven als Het Niets</title>
 </head>
     <!---------------------------------------------->
-<body>
+<body class="m-0 font-body text-normal-font-size bg-body-color text-text-color">
     <!-----------------header start------------------------------------------------>
-    <header class="header" id="header">
+    <header class="w-full fixed bottom-0 left-0 z-fixed bg-body-color" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">
+            <a href="#" class="no-underline w-40 h-30 nav__logo">
                 <img src="assets/img/1_cpRL-B2FpGrYH3SvOfZTLw@2x.png" alt="logo">
             </a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
+                        <a href="#home" class="no-underline" class="nav__link active-link">
                             <i class="uil uil-estate nav__icon"></i>home
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
+                        <a href="#about" class="no-underline" class="nav__link">
                             <i class="uil uil-user nav__icon"></i>about
                         </a>
                     </li>
@@ -58,17 +58,14 @@
 
             </div>
 
-            <div class="nav__btns">
-
+            <div class="flex items-center">
                 <!-- Theme change button -->
-
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
-
+            
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"> </i>
-
+                    <i class="uil uil-apps"></i>
                 </div>
-            </div>
+            </div>            
         </nav>
     </header>
 <!------------------------------------------------------------------------->
@@ -357,6 +354,6 @@
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/ts/main.ts"></script>
 </body>
 </html>
